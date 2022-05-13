@@ -35,9 +35,11 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/avatar.jpg
+    - assets/kk.jpeg
+    - assets/kk2.jpeg
     
- 
+
+
 
 
   fonts:

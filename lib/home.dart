@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:profile_page/widgets/info_card.dart';
 
 // our data
-const url = "meshivanshsingh.me";
-const email = "me.shivansh007@gmail.com";
-const phone = "90441539202"; // not real number :)
-const location = "Lucknow, India";
+const url = "https://www.linkedin.com/in/kaushik-aadhithya-chiratanagandla-b71221219/";
+const email = "ckaushikaadhithya@gmail.com";
+const phone = "8669297695";
+const location = "Pune,Maharashtra, INDIA";
 
 class HomePage extends StatelessWidget {
   @override
@@ -17,11 +17,11 @@ class HomePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               CircleAvatar(
-                radius: 50,
-                backgroundImage: AssetImage('assets/avatar.jpg'),
+                radius: 100,
+                backgroundImage: AssetImage('assets/kk.jpeg'),
               ),
               Text(
-                "Shivansh Singh",
+                "Kaushik Aadhithya Ch",
                 style: TextStyle(
                   fontSize: 40.0,
                   color: Colors.white,
@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               Text(
-                "Flutter Developer",
+                "Android Developer",
                 style: TextStyle(
                     fontSize: 30,
                     color: Colors.blueGrey[200],
